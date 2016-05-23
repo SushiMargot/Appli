@@ -4,11 +4,11 @@ package com.example.proval.appli;
  * Created by proval on 5/23/16.
  */
 public class InstrWhile extends Instr {
-    Cond cond;
+    Bool bool;
     Instr instr;
 
-    InstrWhile (Cond c, Instr i) {
-        this.cond = c;
+    InstrWhile (Bool c, Instr i) {
+        this.bool = c;
         this.instr = i;
     }
 }
